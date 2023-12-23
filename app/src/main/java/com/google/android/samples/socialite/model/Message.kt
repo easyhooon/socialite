@@ -69,7 +69,7 @@ data class Message(
             requireNotNull(text)
             requireNotNull(timestamp)
             return Message(
-                id!!,
+                id,
                 chatId!!,
                 senderId!!,
                 text!!,
